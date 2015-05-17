@@ -1,0 +1,23 @@
+{
+  "name": "watchmen-ping-http-head",
+  "version": "0.0.1",
+  "description": "HTTP ping service for watchmen",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iloire/watchmen-ping-http-head.git"
+  },
+  "keywords": [
+    "watchmen",
+    "ping"
+  ],
+  "author": "Ivan Loire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iloire/watchmen-ping-http-head/issues"
+  },
+  "homepage": "https://github.com/iloire/watchmen-ping-http-head#readme",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
