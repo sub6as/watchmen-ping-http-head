@@ -1,6 +1,6 @@
 {
   "name": "watchmen-ping-http-head",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "HTTP ping service for watchmen",
   "main": "index.js",
   "repository": {
