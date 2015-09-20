@@ -1,8 +1,11 @@
 {
   "name": "watchmen-ping-http-head",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "HTTP ping service for watchmen",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list -b test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iloire/watchmen-ping-http-head.git"
@@ -19,5 +22,9 @@
   "homepage": "https://github.com/iloire/watchmen-ping-http-head#readme",
   "dependencies": {
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "proxyquire": "^1.7.2"
   }
 }
