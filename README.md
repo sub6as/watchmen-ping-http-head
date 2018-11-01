@@ -1,8 +1,12 @@
 # HTTP head ping service for watchmen
 
-https://github.com/iloire/WatchMen
+https://github.com/sub6as/WatchMen
 
 ## History
+
+**0.3.0**
+ - Change request from GET to HEAD and include user agent in request
+
 
 **0.2.0**
 
